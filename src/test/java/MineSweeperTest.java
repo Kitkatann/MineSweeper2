@@ -16,18 +16,4 @@ public class MineSweeperTest {
         grid.tiles.add(tile);
         assertEquals(tile, grid.GetTile(0, 0), "issue finding tile");
     }
-
-    @Test
-    public void test_GenerateGrid()
-    {
-        Grid grid = new Grid(Difficulty.BEGINNER);
-        grid.tiles = new ArrayList<>();
-        grid.GenerateGrid();
-    }
-
-    @Test
-    public void test_TakeGuess()
-    {
-
-    }
 }
